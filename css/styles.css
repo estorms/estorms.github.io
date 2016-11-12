@@ -38,7 +38,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: lightgray;
+  background-color: tomato;
 }
 .bg-dark {
   background-color: #222222;
@@ -47,9 +47,7 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-section {
-  padding: 100px 0;
-}
+
 aside {
   padding: 50px 0;
 }
@@ -58,7 +56,7 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: black;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -420,9 +418,13 @@ body {
 }
 
 .techs img {
- max-width: 60px;
+ max-width: 100px;
 }
 
 .techs p {
- margin-top: -8px;
+ margin-top: 8px;
+}
+
+#mainNav {
+background-color: darkgray;
 }
