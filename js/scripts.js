@@ -1,5 +1,5 @@
-
-
+(function($) {
+    console.log("scripts connected")
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -59,4 +59,5 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+})(jQuery);
 
