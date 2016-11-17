@@ -47,7 +47,9 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-
+section {
+  padding: 100px 0;
+}
 aside {
   padding: 50px 0;
 }
@@ -56,7 +58,7 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: black;
+  border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -254,12 +256,8 @@ header .header-content .header-content-inner p {
   font-weight: 600;
   font-size: 14px;
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
-}
-.project-name
-{
-  font-size: .5rem;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -272,7 +270,7 @@ header .header-content .header-content-inner p {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: .75em;
+    font-size: 22px;
   }
 }
 .call-to-action h2 {
@@ -426,9 +424,15 @@ body {
 }
 
 .techs p {
- margin-top: 8px;
+ margin-top: -8px;
 }
 
-#mainNav {
-background-color: darkgray;
+.tech-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-icon {
+  color: black;
+  margin-top: 25px;
 }
