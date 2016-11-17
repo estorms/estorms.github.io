@@ -420,7 +420,7 @@ body {
 }
 
 .techs img {
- max-width: 60px;
+ max-width: 100px;
 }
 
 .techs p {
@@ -429,4 +429,10 @@ body {
 
 .tech-heading {
   text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-icon {
+  color: black;
+  margin-top: 25px;
 }
