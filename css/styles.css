@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: wheat;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -18,11 +19,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: black;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #4d4dff;
 }
 h1,
 h2,
@@ -32,13 +33,18 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+h2 {
+  text-align: center;
+  color: black;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: white;
+  background-color: wheat;
 }
 .bg-dark {
   background-color: #222222;
@@ -57,7 +63,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
+  background-color: red;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
@@ -65,14 +71,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: black;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #4d4dff;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -130,7 +136,7 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #4d4dff;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -152,13 +158,21 @@ header {
   background-position: center;
   background-image: url('../img/header.jpg');
   text-align: center;
-  color: white;
+  color: black;
+  border-bottom: 5px solid black;
 }
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+  border: 5px solid black;
+  border-radius: 25px;
+  max-width: 50%;
+  margin-left: 25%;
+  background-color: rgb(205, 186, 150);
+
+
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
@@ -226,7 +240,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
-  color: white;
+  color: black;
   opacity: 0;
   display: block;
   background: rgba(240, 95, 64, 0.9);
@@ -262,7 +276,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
+  background-color: wheat;}
 .portfolio-box:focus {
   outline: none;
 }
@@ -287,7 +301,7 @@ header .header-content .header-content-inner p {
 .btn-default {
   color: #222222;
   background-color: white;
-  border-color: white;
+  border-color: #737373;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -299,7 +313,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #222222;
-  background-color: #f2f2f2;
+  background-color: #e6e6e6;
   border-color: #ededed;
 }
 .btn-default:active,
@@ -387,6 +401,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 .btn-xl {
   padding: 15px 30px;
@@ -437,3 +452,21 @@ body {
   color: black;
   margin-top: 25px;
 }
+
+.hidden {
+  visibility: none;
+}
+
+.nav {
+color: black;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.proj-img {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+

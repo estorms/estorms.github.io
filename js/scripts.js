@@ -27,6 +27,16 @@
         }
     })
 
+    //Show Selected Projects
+
+    // $()
+
+    // Enable data-toggle
+
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
