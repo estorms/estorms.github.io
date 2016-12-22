@@ -34,10 +34,11 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-h2 {
+h2, h4 {
   text-align: center;
   color: black;
 }
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -436,16 +437,16 @@ body {
  border-radius: 15px;
 
 }
-.techs {
+/*.techs {
  display: inline-block;
  padding-left: 10px;
  padding-right: 10px;
  text-align: center;
-}
-
+}*/
+/*
 .techs img {
  max-width: 100px;
-}
+}*/
 
 .techs p {
  margin-top: -8px;
@@ -476,7 +477,6 @@ color: black;
 }
 
 .proj-buttons {
-  margin-left: 33vw;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -504,9 +504,16 @@ color: black;
   margin-bottom: 1pc; 
 }
 
-.con-Icon img {
-  height: 100px;
-  width: 100px;
+.con-Icon img, .techs-Div img {
+  border-radius: 15px;
+  max-height: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+  max-width: 94px;
+}
+
+.techs-Div {
+  float: right;
 }
 
 .pup {
