@@ -22,25 +22,25 @@
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top" style="background-color: lightblue; color: black;">Elizabeth Sanger</a>
+                    <a class="navbar-brand page-scroll" href="#page-top">Elizabeth Sanger</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: lightblue; color: black;">
-                    <ul class="nav navbar-nav navbar-right" style="background-color: lightblue; color: black;">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="page-scroll" href="https://www.linkedin.com/in/elizabeth-sanger-36659628" style="color: black" target="_blank">LinkedIn</a>
+                            <a class="page-scroll" href="https://www.linkedin.com/in/elizabeth-sanger-36659628" target="_blank">LinkedIn</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="https://github.com/estorms" style="color: black" target="_blank">Github</a>
+                            <a class="page-scroll" href="https://github.com/estorms" target="_blank">Github</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#portfolio" style="color: black" target="_blank">Projects</a>
+                            <a class="page-scroll" href="#portfolio" target="_blank">Projects</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact" style="color: black" target="_blank">Contact</a>
+                            <a class="page-scroll" href="#contact" target="_blank">Contact</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#skillswrap" style="color: black" target="_blank">Technologies</a>
+                            <a class="page-scroll" href="#skillswrap" target="_blank">Technologies</a>
                         </li>
                     </ul>
                 </div>
@@ -53,15 +53,15 @@
                 <div class="header-content-inner">
                     <h1 id="homeHeading">ELizabeth Sanger</h1>
                     <hr>
-                    <img src="img/funpic.jpg" class="mePic">
-                    <p style="color: black; margin-top: 1pc; margin-bottom: .5pc">Developer, Writer, Soup-Maker &amp; Home to Many Cats</p>
+                   <!--  <img src="img/funpic.jpg" class="mePic"> -->
+                    <p id="brand-tag">Developer, Writer, Soup-Maker &amp; Home to Many Cats</p>
                     <a href="#about" class="page-scroll btn btn-default btn-xl sr-button" >About Me</a>
                 </div>
             </div>
         </header>
         <section class="bg-primary" id="about">
             <div class="container">
-                <div class="row" style="border: 4px solid black; background-color: white; padding-top: 10px; border-radius: 15px">
+                <div class="row" id="welcome">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="section-heading">Welcome!</h2>
                         <hr class="">
@@ -77,35 +77,28 @@
                 <li role="presentation"><a href="#proj-three" aria-controls="proj-three" role="tab" data-toggle="tab">Pinterested?</a></li>
                 <li role="presentation"><a href="#proj-four" aria-controls="proj-four" role="tab" data-toggle="tab">Server-Side Capstone</a></li>
             </ul> -->
-            <!-- <div class="col-md-8 col-md-offset-2 col-lg-12"> -->
+            <!-- <div class="col-md-4 col-lg-12"> -->
             <div class="proj-buttons">
                 <a href="#choreturn" class="page-scroll btn btn-default btn-xl sr-button">It's Chore Turn!</a>
                 <a href="#bangazon" class="page-scroll btn btn-default btn-xl sr-button">Bangazon</a>
-                <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Pinterested?</a>
-                <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Server-Side Capstone</a>
+               
+                <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">The Occasion</a>
                 </div>
-            <!-- </div> -->
+            </div>
             <section class="no-padding" id="portfolio">
                 <div class="container-fluid">
 
-                    <div class="col-lg-4 col-sm-6">
-
-                                            <h2>Nashville Software School Front-End Capstone, October 2016</h2>
-                                            Inspired by the vague hostility and ample bias with which so many household chores are delegated, It's CHORE Turn demystifies the decision process of whose turn it is to clean the litterbox. Households can register, assign members chores, rate chores by their irritation factor, track and earn points for chore completion, and assign unexpected tasks accordingly. I built the app with AngularJS, Materialize, and Charts.js and used Firebase to deliver persistent user data retrieved from a flatly structured, non-relational database.
-                                               <ul>
-                                    <li><a href="https://its-chore-turn.firebaseapp.com">Deployed</a></li>
-                                    <li><a href="https://github.com/estorms/ItsCHORETurn">Code</a></li>
-                                </ul>
-                                        </div>
-                        <div class="col-lg-8 col-sm-6">
-                        <h2>Gallery</h2>
+                        <!-- <div class="col-lg-8 col-sm-6"> -->
+                        <h2>It's CHORE Turn!</h2>
                     <div class="row popup-gallery1">
+                    <div class="col-lg-8 col-lg-offset-2 col-sm-6">
                             <a href="img/portfolio/ChoreTurn.jpg" class="portfolio-box" id="choreturn">
                                 <img src="/img/portfolio/ChoreTurn.jpg" class="img-responsive proj-img" alt="It's-Chore-Turn">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                     <div class="project-name text-faded">
-                                               Gallery: It's CHORE Turn!
+                                             
+                                               Inspired by the vague hostility and ample bias with which so many household chores are delegated, It's CHORE Turn demystifies the decision process of whose turn it is to clean the litterbox. Households can register, assign members chores, rate chores by their irritation factor, track and earn points for chore completion, and assign unexpected tasks accordingly. I built the app with AngularJS, Materialize, and Charts.js and used Firebase to deliver persistent user data retrieved from a flatly structured, non-relational database.
                                       <!--   <div class="project-name">
                                             It's CHORE Turn!
                                             </div> -->
@@ -130,19 +123,19 @@
                         <!-- </div> -->
                             <div class="row popup-gallery2">
                         <div class="col-lg-4 col-sm-6">
-                            <h2>Welcome to Bangazon</h2>
-                               The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation.
+                            <!-- <h2>Welcome to Bangazon</h2> -->
+                             <!--   The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation. -->
                                <p><a href="https://github.com/NSSNamespace/Initial_Bangazon_Site">Code</a></li>
                                 </ul>
                         </div>
-                        <div class="col-lg-8 col-sm-6">
-                        <h2>Gallery</h2>
+                       <div class="col-lg-8 col-lg-offset-2 col-sm-6">
+                        <h2>Welcome to Bangazon</h2>
                                 <a href="/img/portfolio/BangazonMVC.png" class="portfolio-box">
                                     <img src="img/portfolio/BangazonMVC.png" class="img-responsive proj-img" alt="Bangazon">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
                                             <div class="project-name text-faded">
-                                                Gallery: Welcome to Bangazon!
+                                                 The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation.
                                             </div>
                                         </div>
                                     </div>
