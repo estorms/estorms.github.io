@@ -168,16 +168,15 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 100px 0 100px;
   width: 100%;
   border: 5px solid black;
   border-radius: 25px;
-  max-width: 50%;
-  margin-left: 25%;
+  max-width: 59%;
+  margin-left: 21%;
   background-color: rgb(205, 186, 150);
-
-
 }
+
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -276,7 +275,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 10px;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -284,14 +283,14 @@ header .header-content .header-content-inner p {
 .portfolio-box:focus {
   outline: none;
 }
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
-}*/
+}
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
@@ -519,3 +518,5 @@ color: black;
 .pup {
   margin-top: 2vh;
 }
+
+
