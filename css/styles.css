@@ -547,7 +547,7 @@ color: black;
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 396px) {
   .mePic {
     height: 150px;
   }
