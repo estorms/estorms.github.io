@@ -244,7 +244,7 @@ header .header-content .header-content-inner p {
   position: relative;
   display: block;
   /*max-width: 650px;*/
-  margin: 0 auto;
+  margin: 1% auto;
 }
 .portfolio-box .portfolio-box-caption {
   color: black;
@@ -538,6 +538,21 @@ color: black;
   }
 }
 
+.code-link {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.visit {
+  margin-right: 20%;
+}
+
+.read {
+  margin-left: 20%;
+}
+
 .contact-container {
   border: 2px solid black;
   border-radius: 15px;
@@ -551,4 +566,10 @@ color: black;
   .mePic {
     height: 150px;
   }
+  
+  .code-link {
+  font-size: .5em;
+  }
 }
+
+
