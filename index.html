@@ -28,11 +28,8 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>                            <a class="page-scroll" href="/E.Sanger%20Resume.pdf" target="_blank">Resume</a></li>
-
                         <li>
                             <a class="page-scroll" href="https://www.linkedin.com/in/elizabeth-sanger-36659628" target="_blank">LinkedIn</a>
-
-
                         </li>
                         <li>
                             <a class="page-scroll" href="https://github.com/estorms" target="_blank">Github</a>
@@ -73,136 +70,134 @@
                         <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button" style="background-color: wheat">Be In Touch!</a>
                     </div>
                 </div>
-            </div>  
+            </div>
         </section>
-        <h2 class="section-heading text">Projects</h2>
-           <li class="active"><a href="#home">Home</a></li>
-    <li><a href="#menu1">Menu 1</a></li>
-    <li><a href="#menu2">Menu 2</a></li>
-    <li><a href="#menu3">Menu 3</a></li>
-  </ul>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      wpoeigh
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-  </div>
-        <hr class="primary">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-        </div>
-        <div class="proj-buttons col-md-4 col-lg-4 col-sm-4 text-center">
-            <a href="#choreturn" class="page-scroll btn btn-default btn-xl sr-button">It's Chore Turn!</a>
-            <a href="#bangazon" class="page-scroll btn btn-default btn-xl sr-button">Bangazon</a>
-            
-            <a href="#occasion" class="page-scroll btn btn-default btn-xl sr-button">The Occasion</a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-        </div>
-        
-        <section class="no-padding" id="portfolio">
-            <div class="container-fluid">
+        <section id="portfolio" class="no-padding">
+            <h2 class="section-heading text">Projects</h2>
+            <ul class="nav nav-tabs proj-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#proj-one" aria-controls="proj-one" role="tab" data-toggle="tab">It's CHORE Turn!</a></li>
+                <li role="presentation"><a href="#proj-two" aria-controls="proj-two" role="tab" data-toggle="tab">The Occasion</a></li>
+                <li role="presentation"><a href="#proj-three" aria-controls="proj-three" role="tab" data-toggle="tab">Welcome to Bangazon!</a></li>
+            </ul>
+
+            <div class="tab-content">
                 
-                <div class="row popup-gallery1 pup">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <a href="img/portfolio/ChoreTurn.jpg" class="portfolio-box">
-                            <img src="/img/portfolio/ChoreTurn.jpg" class="img-responsive proj-img" alt="It's-Chore-Turn">
-                        
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        It's CHORE Turn!
+                <div role="tabpanel" class="tab-pane active" id="proj-one">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-lg-6">
+                            <h3>It's CHORE Turn!</h3>
+                            <p> Inspired by the vague hostility and ample bias with which so many household chores are delegated, It's CHORE Turn demystifies the decision process of whose turn it is to clean the litterbox. Households can register, assign members chores, rate chores by their irritation factor, track and earn points for chore completion, and assign unexpected tasks accordingly. I built the app with AngularJS, Materialize, and Charts.js and used Firebase to deliver persistent user data retrieved from a flatly structured, non-relational database.</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-6">
+                            <div id="chore-carousel" class="carousel slide" data-ride="carousel">
+                                
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="/img/portfolio/ChoreTurn.jpg" alt="ChoreTurn-1">
+                                        
                                     </div>
-                                    <div class="project-name text-faded">
-                                           Inspired by the vague hostility and ample bias with which so many household chores are delegated, It's CHORE Turn demystifies the decision process of whose turn it is to clean the litterbox. Households can register, assign members chores, rate chores by their irritation factor, track and earn points for chore completion, and assign unexpected tasks accordingly. I built the app with AngularJS, Materialize, and Charts.js and used Firebase to deliver persistent user data retrieved from a flatly structured, non-relational database.
+                                    <div class="item">
+                                        <img src="/img/portfolio/ChoreTurn2.jpg" alt="ChoreTurn-2">
+                                        
+                                    </div>
+                                    <div class="item">
+                                        <img src="/img/portfolio/ChoreTurn3.jpg" alt="ChoreTurn-3">
                                         
                                     </div>
                                 </div>
-                            </div>
-                           <a href="img/portfolio/ChoreTurn2.jpg" class="portfolio-box" id="choreturn2">
-                                <img src="/img/portfolio/ChoreTurn2.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn2">
-                                  <a href="img/portfolio/ChoreTurn3.jpg" class="portfolio-box" id="choreturn3">
-                                    <img src="img/portfolio/ChoreTurn3.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn3">
+                                <a class="left carousel-control" href="#chore-carousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
                                 </a>
-                            </a>
-                        </a>
-                    </div>
-                </div>
-                <div class="code-link"><a href="https://its-chore-turn.firebaseapp.com" target="_blank" class="visit">Visit the Site</a>
-                        <span><a href="https://github.com/estorms/ItsCHORETurn" target="_blank" class="read">Read the Code</a></span></div>
-<div class="row popup-gallery2 pup">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <!-- <h2>Welcome to Bangazon</h2> -->
-                        <a href="/img/portfolio/BangazonMVC.png" class="portfolio-box" id="bangazon">
-                            <img src="img/portfolio/BangazonMVC.png" class="img-responsive proj-img" alt="Bangazon">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Welcome to Bangazon!
-                                    </div>
-                                    <div class="project-name text-faded">
-                                        The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation.
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="img/portfolio/Bangazon2.jpg" class="portfolio-box" id="bangazon2">
-                                <img src="/img/portfolio/Bangazon2.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn2">
-                                <a href="img/portfolio/Bangazon4.jpg" class="portfolio-box" id="bangazon3">
-                                    <img src="img/portfolio/Bangazon4.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn3">
-                                    <!--    <ul>
-                                        <li><a href="https://its-chore-turn.firebaseapp.com">Deployed</a></li>
-                                        <li><a href="https://github.com/estorms/ItsCHORETurn">Code</a></li>
-                                    </ul> -->
-                                    <!-- </div> -->
-                                </a>
-                            </a>
-                        </a>
-                    </div>
-                </div>
-                <div class="code-link"><a href="https://github.com/estorms/Initial_Bangazon_Site" target="_blank">Read the Code</a></div>
-
-                <div class="row popup-gallery3 pup" id="occasion">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <a href="img/occasion1.jpg" class="portfolio-box">
-                            <img src="/img/occasion1.jpg" class="img-responsive proj-img" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        The Occasion
-                                    </div>
-                                    <div class="project-name">
-                                        
-                                        My server-side capstone at Nashville Software School was pure indulgence: A curated poetry database served through my favorite back-end framework, ASP.NET. The Occasion's users can browse poems by multiple forms, topics,
-                                        or moods; read a randomly selected poem; and generate custom haikus or sonnets. I built the app in
-                                        Visual Studio 2015 and used Microsoft Entity Framework to construct the database, with Identity Framework for user authorization.
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="img/occasion2.jpg" class="portfolio-box" id="choreturn2">
-                                <img src="img/occasion2.jpg" class="img-responsive proj-img mfp-hide" alt="Occasion2">
-                                <a href="img/occasion3.jpg" class="portfolio-box" id="choreturn3">
-                                    <img src="img/occasion3.jpg" class="img-responsive proj-img mfp-hide" alt="Occasion3">
-                                </a>
-                                </a>
+                                <a class="right carousel-control" href="#chore-carousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
                                 </a>
                             </div>
                         </div>
+                        
                     </div>
-                <div class="code-link"><a href="https://github.com/estorms/The-Occasion" target="_blank">Read the Code</a></div>
+                </div>
+
+                <div role="tabpanel" id="proj-two" class="tab-pane">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-lg-6">
+                            <h3>The Occasion</h3>
+                            <p>My server-side capstone at Nashville Software School was pure indulgence: A curated poetry database served through my favorite back-end framework, ASP.NET. The Occasion's users can browse poems by multiple forms, topics,
+                                or moods; read a randomly selected poem; and generate custom haikus or sonnets. I built the app in
+                            Visual Studio 2015 and used Microsoft Entity Framework to construct the database, with Identity Framework for user authorization.</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-6">
+                            <div id="occasion-carousel" class="carousel slide" data-ride="carousel">
+                                
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="/img/occasion1.jpg" alt="Occasion-1">
+                                        
+                                    </div>
+                                    <div class="item">
+                                        <img src="/img/occasion2.jpg" alt="Occasion-2">
+                                        
+                                    </div>
+                                    <div class="item">
+                                        <img src="/img/occasion3.jpg" alt="Occasion-3">
+                                        
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#occasion-carousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#occasion-carousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    <div role="tabpanel" id="proj-three" class="tab-pane">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6 col-lg-6">
+                                <h3>Welcome to Bangazon!</h3>
+                                <p> The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation.</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-6">
+                                <div id="bangazon-carousel" class="carousel slide" data-ride="carousel">
+                                    
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="/img/portfolio/BangazonMVC.png" alt="Bangazon-1">
+                                            
+                                        </div>
+                                        <div class="item">
+                                            <img src="/img/portfolio/Bangazon2.jpg" alt="Bangazon-2">
+                                            
+                                        </div>
+                                        <div class="item">
+                                            <img src="/img/portfolio/Bangazon4.jpg" alt="Bangazon-3">
+                                            
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#bangazon-carousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#bangazon-carousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </section>
+
                 <section id="contact">
                     <div class="container contact-container">
                         <div class="row">
@@ -282,3 +277,99 @@
                 <script src="/js/scripts.js"></script>
             </body>
         </html>
+        <!--
+        <hr class="primary">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+        </div>
+        <div class="proj-buttons col-md-4 col-lg-4 col-sm-4 text-center">
+            <a href="#choreturn" class="page-scroll btn btn-default btn-xl sr-button">It's Chore Turn!</a>
+            <a href="#bangazon" class="page-scroll btn btn-default btn-xl sr-button">Bangazon</a>
+            
+            <a href="#occasion" class="page-scroll btn btn-default btn-xl sr-button">The Occasion</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+        </div>
+        
+        <section class="no-padding" id="portfolio">
+            <div class="container-fluid">
+                
+                <div class="row popup-gallery1 pup">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <a href="img/portfolio/ChoreTurn.jpg" class="portfolio-box">
+                            <img src="/img/portfolio/ChoreTurn.jpg" class="img-responsive proj-img" alt="It's-Chore-Turn">
+                            
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        It's CHORE Turn!
+                                    </div>
+                                    <div class="project-name text-faded">
+                                        Inspired by the vague hostility and ample bias with which so many household chores are delegated, It's CHORE Turn demystifies the decision process of whose turn it is to clean the litterbox. Households can register, assign members chores, rate chores by their irritation factor, track and earn points for chore completion, and assign unexpected tasks accordingly. I built the app with AngularJS, Materialize, and Charts.js and used Firebase to deliver persistent user data retrieved from a flatly structured, non-relational database.
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="img/portfolio/ChoreTurn2.jpg" class="portfolio-box" id="choreturn2">
+                                <img src="/img/portfolio/ChoreTurn2.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn2">
+                                <a href="img/portfolio/ChoreTurn3.jpg" class="portfolio-box" id="choreturn3">
+                                    <img src="img/portfolio/ChoreTurn3.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn3">
+                                </a>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+                <div class="code-link"><a href="https://its-chore-turn.firebaseapp.com" target="_blank" class="visit">Visit the Site</a>
+                <span><a href="https://github.com/estorms/ItsCHORETurn" target="_blank" class="read">Read the Code</a></span></div>
+                <div class="row popup-gallery2 pup">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <a href="/img/portfolio/BangazonMVC.png" class="portfolio-box" id="bangazon">
+                            <img src="img/portfolio/BangazonMVC.png" class="img-responsive proj-img" alt="Bangazon">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Welcome to Bangazon!
+                                    </div>
+                                    <div class="project-name text-faded">
+                                        The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation.
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="img/portfolio/Bangazon2.jpg" class="portfolio-box" id="bangazon2">
+                                <img src="/img/portfolio/Bangazon2.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn2">
+                                <a href="img/portfolio/Bangazon4.jpg" class="portfolio-box" id="bangazon3">
+                                    <img src="img/portfolio/Bangazon4.jpg" class="img-responsive proj-img mfp-hide" alt="It's-Chore-Turn3">
+                                </a>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+                <div class="code-link"><a href="https://github.com/estorms/Initial_Bangazon_Site" target="_blank">Read the Code</a></div>
+                <div class="row popup-gallery3 pup" id="occasion">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <a href="img/occasion1.jpg" class="portfolio-box">
+                            <img src="/img/occasion1.jpg" class="img-responsive proj-img" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        The Occasion
+                                    </div>
+                                    <div class="project-name">
+                                        
+                                        My server-side capstone at Nashville Software School was pure indulgence: A curated poetry database served through my favorite back-end framework, ASP.NET. The Occasion's users can browse poems by multiple forms, topics,
+                                        or moods; read a randomly selected poem; and generate custom haikus or sonnets. I built the app in
+                                        Visual Studio 2015 and used Microsoft Entity Framework to construct the database, with Identity Framework for user authorization.
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="img/occasion2.jpg" class="portfolio-box" id="choreturn2">
+                                <img src="img/occasion2.jpg" class="img-responsive proj-img mfp-hide" alt="Occasion2">
+                                <a href="img/occasion3.jpg" class="portfolio-box" id="choreturn3">
+                                    <img src="img/occasion3.jpg" class="img-responsive proj-img mfp-hide" alt="Occasion3">
+                                </a>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="code-link"><a href="https://github.com/estorms/The-Occasion" target="_blank">Read the Code</a></div>
+        </section>
