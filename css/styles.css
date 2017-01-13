@@ -573,3 +573,13 @@ color: black;
 }
 
 
+.proj-tabs {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.proj-tabs li {
+  display: inline-block;
+  float: none;
+}
+
