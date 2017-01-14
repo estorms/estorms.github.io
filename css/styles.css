@@ -5,7 +5,7 @@ body {
   background-color: wheat;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: sans-serif;
 }
 hr {
   border-color: #F05F40;
@@ -56,7 +56,7 @@ p {
   text-align: center
 }
 section {
-  padding: 50px 0;
+  padding: 50px 25px;
 }
 aside {
   padding: 50px 0;
@@ -574,12 +574,31 @@ color: black;
 
 
 .proj-tabs {
-  margin: 0 auto;
+  margin: 10px 0;
   text-align: center;
 }
 
 .proj-tabs li {
   display: inline-block;
   float: none;
+  background-color: white;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  padding-bottom: 10px;
+  
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #ddd;
+  border-radius: 0 !important;
+  margin-right: 0 !important;
+}
+
+
+.nav-tabs>li>a {
+  border-radius: 0 !important;
+  margin-right: 0 !important;
 }
 
