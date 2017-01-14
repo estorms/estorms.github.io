@@ -58,12 +58,19 @@ $(".navbar").hide();
                  // set distance user needs to scroll before we start fadeIn
             if ($(this).scrollTop() > 100) {
                 $('.navbar').fadeIn();
+                 // $(".navbar-brand").css("background-color", "rgba(0, 0, 0, 0.5");
             } else {
                 $('.navbar').fadeOut();
             }
         });
     });
       
+        //  $(document).scroll(function () { // remove "$"
+        // var y = $(this).scrollTop();        
+        // if (y > 100) {
+        //     $(".navbar-brand").css("background-color", "rgba(0, 0, 0, 0.5");
+        // }
+    
 
 })(jQuery);
 
