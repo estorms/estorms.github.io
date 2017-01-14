@@ -623,3 +623,8 @@ color: black;
 .about-section {
   margin-top: 10px;
 }
+
+.navbar-default .navbar-toggle {
+  background-color: white;
+}
+
