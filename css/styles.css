@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: wheat;
+  /*background-color: #eae0c8;*/
 }
 body {
   font-family: sans-serif;
@@ -45,7 +45,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: wheat;
+  background-color: white;
 }
 .bg-dark {
   background-color: #222222;
@@ -65,17 +65,17 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: lightblue;
-  color: black;
-  border-color: rgba(34, 34, 34, 0.05);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  /*border-color: rgba(34, 34, 34, 0.05);*/
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  background-color: lightblue;
-  color: black;
+background-color: rgba(0, 0, 0, 0.5);
+  color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -95,15 +95,15 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: black;
+  color: white;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: black;
+  color: white;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: black !important;
+  color: white !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -120,35 +120,35 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: black;
+    color: white;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
   .navbar-default.affix {
-    background-color: white;
+    /*background-color: white;*/
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: black;
+    color: white;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: black;
+    color: white;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: black;
+    color: white;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: white;
   }
 
 }
@@ -161,7 +161,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/birds.jpg');
   text-align: center;
   color: black;
   border-bottom: 3px solid black;
@@ -176,7 +176,7 @@ header .header-content {
   /*border-radius: 25px;*/
   max-width: 59%;
   margin-left: 21%;
-  background-color: rgb(205, 186, 150);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 7px 1px 4px 1px black;
 
 }
@@ -443,6 +443,7 @@ body {
 .mePic {
  height: 214px;
  border-radius: 50%;
+ margin-top: 10px;
 
 }
 
@@ -453,7 +454,7 @@ body {
 
 .tech-heading {
   text-align: center;
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
 }
 
 
@@ -482,21 +483,22 @@ color: black;
 }
 
 #bs-example-navbar-collapse-1{
-  background-color: lightblue;
-  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 #mainNav {
-  background-color: lightblue;
-  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .body-row {
-  border: 3px solid black; 
-  background-color: white; 
-  padding-top: 10px; 
+  border-top: 1px solid black; 
+  /*border-bottom: 1px solid black;*/
+  /*background-color: white; */
+  padding: 20px 0; 
   /*border-radius: 15px;*/
-  box-shadow: 5px 1px 4px 1px black;
+  /*box-shadow: 5px 1px 4px 1px black;*/
 
 }
 
@@ -597,11 +599,27 @@ color: black;
 }
 
 .tab-content {
-  border: 2px solid black;
-   box-shadow: 5px 1px 4px 1px black;
+  /*border: 2px solid black;
+   box-shadow: 5px 1px 4px 1px black;*/
    padding: 20px;
-   background-color: white;
+   /*background-color: white;*/
 }
 
+.contact-butt {
+  background-color: #ddd;
+}
 
+.btn.btn-lg {
+  border-radius: 0;
+}
 
+.h2-span {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 6px;
+}
+
+.about-section {
+  margin-top: 10px;
+}

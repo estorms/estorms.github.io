@@ -51,22 +51,22 @@
         <header>
             <div class="header-content">
                 <div class="header-content-inner">
-                    <h1 id="homeHeading">ELizabeth Sanger</h1>
-                    <hr>
+                    <!-- <hr> -->
                     <img src="img/profpic.jpeg" class="mePic">
+                    <h1 id="homeHeading">ELizabeth Sanger</h1>
                     <p id="brand-tag">Developer, Writer, Soup-Maker &amp; Home to Many Cats</p>
-                    <a href="#about" class="page-scroll btn btn-default btn-xl sr-button" >About Me</a>
+                    <!-- <a href="#about" class="page-scroll btn btn-default btn-lg sr-button" >About Me</a> -->
                 </div>
             </div>
         </header>
-        <section class="bg-primary" id="about">
+        <section class="bg-primary about-section" id="about">
             <!-- <div class="container"> -->
+                        <h2 class="section-heading"><span class="h2-span">Welcome!</span></h2>
                 <div class="row body-row" id="welcome">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Welcome!</h2>
-                        <hr class="">
+                        <!-- <hr class=""> -->
                         <p class="about-text">As a former communications professor and professional writer, I have always been fascinated by the ways in which language coheres into meaning. It took a few hours fiddling with JavaScript for me to realize that development is a natural extension of what I've always wanted to do: understand and communicate complexities. If I can channel that passion into business solutions that make a positive difference in my community, all the better. Plus, coding is just really, really fun.</p>
-                        <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button" style="background-color: wheat">Be In Touch!</a>
+                        <!-- <a href="#contact" class="page-scroll btn btn-default btn-lg sr-button contact-butt">Be In Touch!</a> -->
                     </div>
                 </div>
             <!-- </div> -->
@@ -74,7 +74,8 @@
 <!-- <<<<<<< HEAD -->
 
         <section id="portfolio">
-            <h2 class="section-heading text">Projects</h2>
+            <h2 class="section-heading text"><span class="h2-span">Projects</span></h2>
+            <div class="row body-row">
             <ul class="nav nav-tabs proj-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#proj-one" aria-controls="proj-one" role="tab" data-toggle="tab">It's CHORE Turn!</a></li>
                 <li role="presentation"><a href="#proj-two" aria-controls="proj-two" role="tab" data-toggle="tab">The Occasion</a></li>
@@ -82,56 +83,16 @@
             </ul>
 
             <div class="tab-content">
-<!-- =======
-        <h2 class="section-heading text">Projects</h2>
-        <hr class="primary">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-        </div>
-        <div class="proj-buttons col-md-4 col-lg-4 col-sm-4 text-center">
-            <a href="#choreturn" class="page-scroll btn btn-default btn-xl sr-button">It's Chore Turn!</a>
-            <a href="#bangazon" class="page-scroll btn btn-default btn-xl sr-button">Bangazon</a>
-            
-            <a href="#occasion" class="page-scroll btn btn-default btn-xl sr-button">The Occasion</a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-        </div>
-        
-        <section class="no-padding" id="portfolio">
-            <div class="container-fluid">
-                <div class="row popup-gallery3 pup" id="occasion">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <a href="img/TheOccasionHome.png" class="portfolio-box">
-                            <img src="/img/TheOccasionHome.png" class="img-responsive proj-img" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        The Occasion
-                                    </div>
-                                    <div class="project-name">
-                                        
-                                        My server-side capstone at Nashville Software School was pure indulgence: A curated poetry database served through my favorite back-end framework, ASP.NET. The Occasion's users can browse poems by multiple forms, topics,
-                                        or moods; read a randomly selected poem; and generate custom haikus or sonnets. I built the app in
-                                        Visual Studio 2015 and used Microsoft Entity Framework to construct the database, with Identity Framework for user authorization.
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="img/TheOccasionOptions.png" class="portfolio-box" id="choreturn2">
-                                <img src="img/TheOccasionOptions.png" class="img-responsive proj-img mfp-hide" alt="Occasion2">
-                                <a href="img/TheOccasionSonnet.png" class="portfolio-box" id="choreturn3">
-                                    <img src="img/TheOccasionSonnet.png" class="img-responsive proj-img mfp-hide" alt="Occasion3">
-                                </a>
-                                </a>
-                                </a>
-                            </div>
-                        </div>
-                <div class="code-link"><a href="https://github.com/estorms/The-Occasion" target="_blank">Read the Code</a></div>
->>>>>>> master -->
-                
+
                 <div role="tabpanel" class="tab-pane active" id="proj-one">
                     <div class="row">
                         <div class="col-xs-12 col-md-6 col-lg-6">
                             <h3>It's CHORE Turn!</h3>
                             <p> Inspired by the vague hostility and ample bias with which so many household chores are delegated, It's CHORE Turn demystifies the decision process of whose turn it is to clean the litterbox. Households can register, assign members chores, rate chores by their irritation factor, track and earn points for chore completion, and assign unexpected tasks accordingly. I built the app with AngularJS, Materialize, and Charts.js and used Firebase to deliver persistent user data retrieved from a flatly structured, non-relational database.</p>
+                            <ul>
+                            <li><a href="https://its-chore-turn.firebaseapp.com" target="_blank">Visit the Site</a></li>
+                            <li><a href="https://github.com/estorms/ItsCHORETurn" target="_blank">Read the Code</a></li>
+                            </ul>
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-6">
                             <div id="chore-carousel" class="carousel slide" data-ride="carousel">
@@ -206,6 +167,10 @@
                             <p>My server-side capstone at Nashville Software School was pure indulgence: A curated poetry database served through my favorite back-end framework, ASP.NET. The Occasion's users can browse poems by multiple forms, topics,
                                 or moods; read a randomly selected poem; and generate custom haikus or sonnets. I built the app in
                             Visual Studio 2015 and used Microsoft Entity Framework to construct the database, with Identity Framework for user authorization.</p>
+                              <ul>
+                          
+                            <li><a href="https://github.com/estorms/The-Occasion" target="_blank">Read the Code</a></li>
+                            </ul>
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-6">
                             <div id="occasion-carousel" class="carousel slide" data-ride="carousel">
@@ -241,7 +206,11 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-6 col-lg-6">
                                 <h3>Welcome to Bangazon!</h3>
-                                <p> The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application. Features include account registration and form validation.</p>
+                                <p> The second half of the NSS Cohort 15 bootcamp (server-side) took place in a simulated Agile/SCRUM team environment; the Bangazon website, a consumer-facing eBay clone, was my team's first project and introduction to ASP.NET, SQLite, Microsoft Entity Framework, and LINQ. We used the singleton and MVC design patterns to maintain a consistent single-user state throughout the application and wrote the app in VS Code. Features include account registration and form validation.</p>
+                                   <ul>
+                          
+                            <li><a href="https://github.com/NSSNamespace/Initial_Bangazon_Site" target="_blank">Read the Code</a></li>
+                            </ul>
                             </div>
                             <div class="col-xs-12 col-md-6 col-lg-6">
                                 <div id="bangazon-carousel" class="carousel slide" data-ride="carousel">
@@ -272,7 +241,7 @@
                                 </div>
                             </div>
                         </div>
-
+</div>
 <!-- ======= -->
                     </div>
 <!-- >>>>>>> master -->
@@ -280,10 +249,10 @@
             </div>
 
                 <section id="contact">
-                                <h2 class="section-heading">Be in Touch!</h2>
+                                <h2 class="section-heading"><span class="h2-span">Be in Touch!</span></h2>
                         <div class="row body-row">
                             <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <hr class="primary">
+                                <!-- <hr class="primary"> -->
                                 <p>Whether you're looking for a developer, professional writer, private tutor, extra cat, or bespoke soup, I'd love to hear from you.</p>
                             </div>
                         
@@ -297,9 +266,9 @@
                         </div>
                 </section>
                 <section id="skillswrap">
-                            <h2 class="tech-heading">Tech Stack</h2>
+                            <h2 class="tech-heading"><span class="h2-span">Tech Stack</span></h2>
                         <div class="row body-row">
-                            <hr class="primary">
+                            <!-- <hr class="primary"> -->
                             <div class="col-lg-12 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center techs-Div">
                                 <a href="http://stackoverflow.com/tags/angularjs/info"><img src="techs/angular.jpg" alt="AngularJS">
                                 </a>
